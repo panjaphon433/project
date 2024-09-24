@@ -53,8 +53,10 @@ if ($row_cnt_admin == 1) {
     echo json_encode($response);
 } elseif ($row_cnt_user == 1) {
     $x = $result_user->fetch_assoc();
+    
     $_SESSION["check"] = $x["HN"];
     $_SESSION["name"] = $x["patient_name"];
+    $_SESSION["IDCard"] = $x["patient_idcard"];
     $response = array(
         "status" => 1,
         "position" => $x["patient_name"]

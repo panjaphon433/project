@@ -14,11 +14,11 @@
         //   });
           
         $scope.s = {'key': ""}; //null   
-        $scope.select= function(){
-          
+        $scope.select= function(hn){
+          console.log(hn);
             $http({
                 method: 'POST',
-                url: '../admin/patient_his_select.php',
+                url: 'patient_his_select.php',
                 headers: {
                   'Content-Type': undefined
                 },

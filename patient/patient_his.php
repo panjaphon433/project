@@ -60,7 +60,7 @@ if ($_SESSION == NULL) {
                     <th>แพทย์ผู้ทำการรักษา</th>
                   </tr>
                 </thead>
-                <tbody ng-init="select();" class="tbody-content">
+                <tbody  class="tbody-content">
                   <tr ng-repeat = 'val in list track by $index' class="tbody-content">
                     <td>{{$index+1}}</td>
                     <td>{{val.disease_name}}</td>

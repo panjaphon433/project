@@ -53,6 +53,7 @@ if ($_SESSION == NULL) {
     <?php include 'nav.php';?>
     <br>
       <h1 class="fw-bold">การนัดหมาย: รหัสผู้ป่วย {{list[0].HN}} ชื่อ-นามสกุล {{list[0].patient_name}} {{list[0].patient_lastname}}</h1>
+      <?php echo $_SESSION['check']; ?>
       <div class = "container">
         <br/><br/>
         <table class="table table-hover table-striped">
@@ -68,7 +69,7 @@ if ($_SESSION == NULL) {
                     <th>สถานะการนัดหมาย</th>
                   </tr>
                 </thead>
-                <tbody ng-init="select();" class="tbody-content">                 
+                <tbody ng-init="select(<?php  echo $_SESSION['check']; ?>);" class="tbody-content">                 
                   <tr ng-repeat = 'val in list track by $index' class="tbody-content"> 
                     <td>{{$index+1}}</td>
                     <td>{{val.appointment_date | date:'dd-MM-yyyy'}}</td>
