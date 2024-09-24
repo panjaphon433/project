@@ -8,7 +8,7 @@ echo '
   	';
 
 
-  	echo '
+echo '
 					<script>
 				       setTimeout(function() {
 				        swal({
@@ -21,4 +21,3 @@ echo '
 				    }, 1000);
 				</script>
 				';
-?>

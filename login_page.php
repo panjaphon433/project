@@ -150,7 +150,7 @@
 <body ng-controller="loginController" class="bg-light">
   <div class="container d-flex justify-content-center align-items-center h-100">
     <div class="card">
-      <img src="../admin/images/panm.png" alt="" class="card-img-left">
+      <img src="admin/images/panm.png" alt="" class="card-img-left">
       <div class="card-body">
       <main class="form-signin ">
       <form>

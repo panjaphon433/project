@@ -46,7 +46,7 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">เว็ปแอปพลิเคชั่นสำหรับจัดการข้อมูลผู้ป่วยโรคติดต่อไม่เรื้อรัง <br>Information on patients whih chronic non-communicable diseases</p>
     </div>
-    <a href="admin/adminlogin.php" class="btn btn-outline-primary">เข้าสู่ระบบ</a>
+    <a href="login_page.php" class="btn btn-outline-primary">เข้าสู่ระบบ</a>
   </div>
 
 

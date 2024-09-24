@@ -38,7 +38,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="logout.php" >
+                        <a class="nav-link " href="../logout.php" >
                             <i class="bi bi-box-arrow-right"></i>ออกจากระบบ
                         </a>
                     </li>
