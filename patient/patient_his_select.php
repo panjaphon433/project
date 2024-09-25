@@ -17,7 +17,12 @@ $sql = "SELECT  patient_history.idpatient_history,
                 patient_history.date_treatment, 
                 admin.idadmin, 
                 admin.admin_name, 
-                admin.admin_lastname 
+                admin.admin_lastname,
+                patient_history.weight,
+                patient_history.height,
+                patient_history.bps,
+                patient_history.bpd,
+                patient_history.p
         FROM `patient_history` 
         INNER JOIN `patient` ON patient_history.HN = patient.HN 
         INNER JOIN `admin`ON patient_history.idadmin = admin.idadmin 

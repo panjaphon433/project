@@ -390,6 +390,35 @@ if ($_SESSION == NULL) {
                     </label>
                     <input ng-model="f3.date_treatment" type="date" class="form-control" placeholder="กรุณากรอกวันที่ทำการรักษา" />
                   </div>
+
+                  <div class="mb-3">
+              <label htmlFor="f2.weight" Class="form-lable">
+                <b>น้ำหนัก:</b>
+              </label>
+              <input ng-model="f2.weight" type="text" class="form-control" placeholder="กรุณากรอกน้ำหนัก" />
+            </div>
+
+                   <div class="mb-3">
+              <label htmlFor="f2.height" Class="form-lable">
+                <b>ส่วนสูง:</b>
+              </label>
+              <input ng-model="f2.height	" type="text" class="form-control" placeholder="กรุณากรอกส่วนสูง" />
+            </div>
+
+            <div class="mb-3">
+              <label htmlFor="f2.waistline" Class="form-lable">
+                <b>รอบเอว:</b>
+              </label>
+              <input ng-model="f2.waistline" type="text" class="form-control" placeholder="กรุณากรอกรอบเอว" />
+            </div>
+            
+            <div class="mb-3">
+              <label htmlFor="f2.bps" Class="form-lable">
+                <b>ความดัน:</b>
+              </label>
+              <input ng-model="f2.bps" type="text" class="form-control" placeholder="กรุณากรอกความดัน" />
+            </div>
+
                   <div class="mb-3">
                     <label htmlFor="admin" Class="form-lable">
                       แพทย์ผู้ทำการรักษา:

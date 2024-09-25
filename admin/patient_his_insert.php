@@ -11,7 +11,12 @@ $sql = $sql = "INSERT INTO `patient_history`
                           `iddisease`, 
                           `date_treatment`, 
                           `detail`,
-                          `record_time`)
+                          `record_time`,
+                           `weight`,
+                           `height`,
+                             `bps`,
+                             `bpd`,
+                             `p`)
                 VALUES    (NULL, 
                           '{$x->HN}', 
                           '{$x->idadmin}', 
@@ -19,6 +24,11 @@ $sql = $sql = "INSERT INTO `patient_history`
                           '{$x->date_treatment2}', 
                           '{$x->detail}', 
                           current_timestamp() 
+                           '{$x->weight}',
+                          '{$x->height}',
+                          '{$x->bps}',
+                          '{$x->bpd}',
+                       '{$x->p}' 
                           );";
 $result = $conn->query($sql);
 

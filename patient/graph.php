@@ -61,9 +61,16 @@ if ($_SESSION == NULL) {
   <?php include 'nav.php'; ?>
   <br>
 
-  <div class="container">
-    <canvas id="myChart"></canvas>
+  <div class="container-fluid" ng-init="select();">
+    <h2 class="text-center">สถิติค่า BMI</h2>
+    <div id="chartsContainer" class="row">
+
+    </div>
+
+
+
   </div>
+
 
 
 

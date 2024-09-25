@@ -15,6 +15,10 @@ $sql = "UPDATE `patient_history`
             `iddisease` = '{$x->iddisease}', 
             `date_treatment` = '{$x->date_treatment2}', 
             `detail` = '{$x->detail}',
+              `weight` = '{$x->weight}',
+              `height` = '{$x->height}',
+              `bps`` = '{$x->bps}',
+
             `record_time` =  current_timestamp() 
         WHERE `patient_history`.`idpatient_history` = '{$x->idpatient_history}';";
 $result = $conn->query($sql);
