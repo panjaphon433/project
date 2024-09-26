@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 $s = json_decode(file_get_contents('php://input')); //รับ
@@ -13,6 +14,12 @@ $sql = "SELECT  patient_history.idpatient_history,
                 disease.iddisease,
                 patient_history.detail, 
                 patient_history.date_treatment, 
+                patient_history.weight, 
+                patient_history.height, 
+                patient_history.bps, 
+                patient_history.bpd, 
+                patient_history.p, 
+                patient_history.waistline, 
                 admin.idadmin, 
                 admin.admin_name, 
                 admin.admin_lastname 

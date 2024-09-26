@@ -24,9 +24,10 @@ angular.module('patientApp', [])
             }).then(
                 function(z){
                     $scope.list = z.data;
+                    console.log(z);
                 }, 
                 function(response){
-
+                    console.log(response);
                 }
             );
         }

@@ -392,31 +392,31 @@ if ($_SESSION == NULL) {
                   </div>
 
                   <div class="mb-3">
-              <label htmlFor="f2.weight" Class="form-lable">
+              <label htmlFor="f3.weight" Class="form-lable">
                 <b>น้ำหนัก:</b>
               </label>
-              <input ng-model="f2.weight" type="text" class="form-control" placeholder="กรุณากรอกน้ำหนัก" />
+              <input ng-model="f3.weight" type="text" class="form-control" placeholder="กรุณากรอกน้ำหนัก" />
             </div>
 
                    <div class="mb-3">
-              <label htmlFor="f2.height" Class="form-lable">
+              <label htmlFor="f3.height" Class="form-lable">
                 <b>ส่วนสูง:</b>
               </label>
-              <input ng-model="f2.height	" type="text" class="form-control" placeholder="กรุณากรอกส่วนสูง" />
+              <input ng-model="f3.height	" type="text" class="form-control" placeholder="กรุณากรอกส่วนสูง" />
             </div>
 
             <div class="mb-3">
-              <label htmlFor="f2.waistline" Class="form-lable">
+              <label htmlFor="f3.waistline" Class="form-lable">
                 <b>รอบเอว:</b>
               </label>
-              <input ng-model="f2.waistline" type="text" class="form-control" placeholder="กรุณากรอกรอบเอว" />
+              <input ng-model="f3.waistline" type="text" class="form-control" placeholder="กรุณากรอกรอบเอว" />
             </div>
             
             <div class="mb-3">
-              <label htmlFor="f2.bps" Class="form-lable">
+              <label htmlFor="f3.bps" Class="form-lable">
                 <b>ความดัน:</b>
               </label>
-              <input ng-model="f2.bps" type="text" class="form-control" placeholder="กรุณากรอกความดัน" />
+              <input ng-model="f3.bps" type="text" class="form-control" placeholder="กรุณากรอกความดัน" />
             </div>
 
                   <div class="mb-3">

@@ -17,10 +17,11 @@ $sql = "UPDATE `patient_history`
             `detail` = '{$x->detail}',
               `weight` = '{$x->weight}',
               `height` = '{$x->height}',
-              `bps`` = '{$x->bps}',
-
+              `bps` = '{$x->bps}',
             `record_time` =  current_timestamp() 
         WHERE `patient_history`.`idpatient_history` = '{$x->idpatient_history}';";
+
+
 $result = $conn->query($sql);
 
 if ($result === TRUE) {

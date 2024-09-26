@@ -1,7 +1,7 @@
 <?php
     
-    $prefixURL = 'http://10.50.19.56/appoint-project';
-    // $prefixURL = 'http://localhost/appoint-project';
+    // $prefixURL = 'http://10.50.19.56/appoint-project';
+    $prefixURL = 'http://localhost/appoint-project';
     
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #333a73; font-size:1.1rem;">
