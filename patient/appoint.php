@@ -53,7 +53,7 @@ if ($_SESSION == NULL) {
     <?php include 'nav.php';?>
     <br>
       <h1 class="fw-bold">การนัดหมาย: รหัสผู้ป่วย {{list[0].HN}} ชื่อ-นามสกุล {{list[0].patient_name}} {{list[0].patient_lastname}}</h1>
-      <?php echo $_SESSION['check']; ?>
+     
       <div class = "container">
         <br/><br/>
         <table class="table table-hover table-striped">
