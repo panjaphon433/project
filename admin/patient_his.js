@@ -71,7 +71,7 @@ angular.module('patientApp', [])
         }
         $scope.showupdatefrom = function(pat){
                 $scope.f3 = pat; 
-                //console.log($scope.f3);
+                console.log($scope.f3);
                 $scope.f3.date_treatment = new Date($scope.f3.date_treatment);
                 $http({
                     method: 'POST',
@@ -113,6 +113,7 @@ angular.module('patientApp', [])
 
         $scope.confirmDelete = function(z){
             $scope.goingTodelete = z; 
+            
         }
 
         $scope.insert = function(){

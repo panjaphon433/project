@@ -236,10 +236,22 @@
             </div>
             
             <div class="mb-3">
-              <label htmlFor="f2.bps" Class="form-lable">
+              <label htmlFor="f2.bpd" Class="form-lable">
                 <b>ความดัน:</b>
               </label>
+              <input ng-model="f2.bpd" type="text" class="form-control" placeholder="กรุณากรอกความดัน" />
+            </div>
+            <div class="mb-3">
+              <label htmlFor="f2.bps" Class="form-lable">
+                <b>ความดัน bps</b>
+              </label>
               <input ng-model="f2.bps" type="text" class="form-control" placeholder="กรุณากรอกความดัน" />
+            </div>
+            <div class="mb-3">
+              <label htmlFor="f2.p" Class="form-lable">
+                <b>การเต้นของหัวใจ (p)</b>
+              </label>
+              <input ng-model="f2.p" type="text" class="form-control" placeholder="กรุณากรอกการเต้นของหัวใจ" />
             </div>
                    
                    <!-- <div class="mb-3">

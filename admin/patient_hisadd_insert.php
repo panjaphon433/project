@@ -17,7 +17,8 @@ $sql = "INSERT INTO `patient_history`
                    `height`,
                    `bps`,
                    `bpd`,
-                   `p`)
+                   `p`,
+                   `waistline`)
         VALUES    (
                     '{$x->HN}', 
                     '{$x->idadmin}', 
@@ -29,7 +30,9 @@ $sql = "INSERT INTO `patient_history`
                     '{$x->height}',
                     '{$x->bps}',
                     '{$x->bpd}',
-                    '{$x->p}'  
+                    '{$x->p}',
+                    '{$x->waistline}'  
+
                     
                   )";
        

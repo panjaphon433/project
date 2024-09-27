@@ -89,7 +89,7 @@ if ($_SESSION == NULL) {
     <div class="header">
     <h1 class="title">ประวัติการรักษา</h1>
     </div>
-  <div class="container-body">
+  <div class="container-body" ng-init="select()">
     <b>ค้นหาข้อมูล : </b><input type="text" class="search-patient" placeholder="ค้นหาข้อมูลการนัดหมาย" ng-model="s.key" />
     <button class="btn btn-primary" ng-click="select();">แสดงประวัติผู้ป่วย</button>
     <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="float:right;">
@@ -111,7 +111,7 @@ if ($_SESSION == NULL) {
         </tr>
       </thead>
       
-      <tbody ng-init="select();" class="tbody-content">
+      <tbody  class="tbody-content">
         <tr ng-repeat='val in list track by $index'>
           <td>{{$index+1}}</td>
           <td>{{val.HN}}</td>
@@ -152,7 +152,7 @@ if ($_SESSION == NULL) {
           <th>การจัดการ</th>
         </tr>
       </thead>
-      <tbody ng-init="select3();" class="tbody-content">
+      <tbody  class="tbody-content">
         <tr ng-repeat='val in list3 track by $index'>
           <td>{{$index+1}}</td>
           <td>{{val.HN}}</td>
@@ -475,7 +475,7 @@ if ($_SESSION == NULL) {
           <b>คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลนี้ ..</b><br> HN: {{goingTodelete.HN}} ชื่อ-สกุล: {{goingTodelete.patient_name}} {{goingTodelete.patient_lastname}}
         </div>
         <div class="modal-footer">
-          <button class="btn btn-danger" data-bs-target="#popupDelete2" data-bs-toggle="modal" ng-click="delete(goingTodelete.HN)">ลบ</button>
+          <button class="btn btn-danger" data-bs-target="#popupDelete2" data-bs-toggle="modal" ng-click="delete(goingTodelete.idpatient_history)">ลบ</button>
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
         </div>
       </div>

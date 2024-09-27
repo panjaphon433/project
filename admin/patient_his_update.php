@@ -18,6 +18,7 @@ $sql = "UPDATE `patient_history`
               `weight` = '{$x->weight}',
               `height` = '{$x->height}',
               `bps` = '{$x->bps}',
+              `waistline` = '{$x->waistline}',
             `record_time` =  current_timestamp() 
         WHERE `patient_history`.`idpatient_history` = '{$x->idpatient_history}';";
 

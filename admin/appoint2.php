@@ -160,6 +160,7 @@ if ($_SESSION == NULL) {
                       
                       <button type="button" style="width: 7rem;" class="btn btn-warning" data-bs-toggle="modal" ng-click= "showupdatefrom_app(val)" data-bs-target="#updateModal" >แก้ไข</button>
                       <button type="button" style="width: 7rem;" class="btn btn-primary" ng-click= "appoint(val)">ใบนัดหมาย</button>
+                      <button type="button" style="width: 7rem;" class="btn btn-success" ng-click="sendLine(val)">แจ้งเตือนไลน์</button>
                       <!-- <button type="button" className="btn btn-danger" data-bs-toggle="modal" ng-click= "delete(val.idappointment)">ลบ</button> -->
                       </div>
                     </td>   

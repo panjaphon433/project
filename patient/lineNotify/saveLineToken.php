@@ -1,7 +1,7 @@
 
 
     <?php
-
+    error_reporting(0);
     session_start();
     define('CLIENT_ID', 'LjrjVmwS9kQRCncLoEmtZ9');
     define('CLIENT_SECRET', 'yjgD3WgNcMHNE7yIsLivfJgzjgl8uHFrBrVxhtu4mJo');
